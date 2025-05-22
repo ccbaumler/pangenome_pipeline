@@ -1,0 +1,41 @@
+# Output directory allows the user to select a destination 
+# file path.
+# To store file in the "pangenome-pipeline"
+# directory, simply put ".". Snakemake will complain, but
+# it will run.
+
+output_directory: "."
+#"/group/ctbrowngrp4/2025-ccbaumler-pangenome"
+
+taxon_name_and_id:
+#  'escherichia_coli': 562,
+#  'fusobacterium_nucleatum': 851,
+  'lactobacillus_crispatus': 47770,
+#  'homo_sapien': 9606,
+#  'viridiplantae': 33090,
+
+test:
+
+# The sourmash kmer size you
+# would like to sketch as your
+# databases
+
+# example =
+#k_values:
+#  - 21
+#  - 31
+
+k_values:
+  - 21
+  - 31
+  - 51
+
+# The value to scale the sourmash
+# database by. Lab standard is 1000
+# but set to lowest needed and
+# downsample.
+
+# example =
+scale_value: 1000
+
+batch_size: 100

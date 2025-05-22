@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::sra-tools>=3.1.0,<4.0.0
+  - ca-certificates
+  - certifi
+  - openssl
+  - pip:
+    - awscli==1.29.20

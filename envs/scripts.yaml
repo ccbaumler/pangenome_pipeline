@@ -1,0 +1,9 @@
+name: scripts
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+  - pandas>2,<3
+  - pip:
+    - requests

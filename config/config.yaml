@@ -10,9 +10,13 @@ output_directory: "."
 taxon_name_and_id:
 #  'escherichia_coli': 562,
 #  'fusobacterium_nucleatum': 851,
-  'lactobacillus_crispatus': 47770,
+#  'lactobacillus_crispatus': 47770,
 #  'homo_sapien': 9606,
 #  'viridiplantae': 33090,
+  'blautia_wexlerae': 418240,
+
+lineage_domain:
+  'bacteria'
 
 test:
 

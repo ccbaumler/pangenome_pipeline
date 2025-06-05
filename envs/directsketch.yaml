@@ -4,4 +4,4 @@ channels:
 - bioconda
 - defaults
 dependencies:
-- sourmash_plugin_directsketch=<0.6.3
+- sourmash_plugin_directsketch>=0.6.3
